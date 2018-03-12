@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
+
+* {
+	//font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, .title {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+}
+
+.dot {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+	p {
+    color: $grey;
+	}
+}
+
+a {
+    &:hover, &:link, &:active, &:visited {
+        text-decoration: none;
+    }
+}
